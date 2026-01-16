@@ -1,23 +1,21 @@
 # MiniCompanyDB
 SQL tasks for MiniCompanyDB – corrected and tested.
 
-Bu layihə təcrübə (internship) dövründə SQL biliklərimi inkişaf etdirmək məqsədi ilə hazırlanmışdır.
-Hazırda rəsmi tapşırıqlar verilmədiyi üçün, boş qalmamaq və praktiki bacarıqlarımı gücləndirmək
-üçün real bir şirkət verilənlər bazasına bənzər struktur quraraq müstəqil şəkildə çalışmışam.
+This project was created to improve my SQL skills during my internship period.  
 
-## Fayl Strukturu
-- 01_create_tables.sql – cədvəllərin yaradılması
-- 02_insert_data.sql – test məlumatlarının əlavə olunması
-- 03_queries.sql – əsas select/join sorğuları
+## 📁 File Structure
+- 01_create_tables.sql – Database table creation  
+- 02_insert_data.sql – Inserting test data  
+- 03_queries.sql – Basic SELECT and JOIN queries 
 
-### SQL Task-lar
-- SQLTask1.sql – müştərinin son sifarişini görmək.
-- SQLTask2.sql – Yüksək məbləğli sifarişlərk.
-- SQLTask3.sql – Sifariş məbləğinin yoxlanması.
-- SQLTask4.sql – Müştəri üzrə orta sifariş.
-- SQLTask5.sql – 2023 satış analizi.
-- SQLTask6.sql – Stok və sifariş müqayisəsi.
+## 🧩 SQL Tasks
+- SQLTask1.sql – View the customer's latest order  
+- SQLTask2.sql – High-value orders  
+- SQLTask3.sql – Order amount validation  
+- SQLTask4.sql – Average order per customer  
+- SQLTask5.sql – Sales analysis for 2023  
+- SQLTask6.sql – Stock and order comparison 
 
-#### Qeyd
-- Hər task ayrıca `.sql` faylında verilib
-- Faylların içində tapşırığın məqsədi şərhlərlə izah olunub
+## 📝 Notes
+- Each task is provided in a separate `.sql` file  
+- Task objectives are explained with comments inside the files 
